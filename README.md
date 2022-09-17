@@ -1,1 +1,3 @@
 # big-data-challenge
+
+This repository contains two python notebooks that are meant to read in data from Amazon's publically available review data which is stored in AWS S3 buckets. These notebooks read in the data sets using Spark and format them to be inserted into two PostgreSQL databases which were configured using the schema that is also within this repository. These databases are stored in AWS RDS instances remotely and in order to get this code to work, one must set up the RDS beforehand and insert the necessary connection string, database names, username and password into the jupyter notebooks.
